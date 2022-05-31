@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    margin: 0 auto;
+    /* max-width: 1000px;
+    min-height: 100vh; */
+    display: grid;
+    grid-template-columns: auto;
+grid-template-rows: 70px
+  577px
+  600px
+  100px
+  200px;
+  grid-template-areas: 
+  "navegador"
+  "section1"
+  "section2"
+  "section3"
+  "footer";
+  }
+ 
+nav {
+grid-area: navegador;
+  background-color: #121212;
+}
+ 
+.section1 {
+    grid-area: section1;
+    background-color: #ffa05c;
+}
+
+.section2 {
+    grid-area: section2;
+    background-color: bisque;
+}
+
+.section3 {
+    grid-area: section3;
+    background-color: brown;
+}
+ 
+footer {
+  grid-area: footer;
+    background-color: darkorchid;
+}
+
+/* @media (min-width: 320px) and (max-width: 768px) {
+    main {
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 40px
+      200px
+      1fr
+      100px
+      200px;
+        grid-template-areas: 
+        "navegador navegador"
+        "section1 section1"
+        "section2 section2"
+        "section3 section3"
+        "footer footer";
+    }
+} */
+
+
+@media (min-width: 1280) {
+        main {
+            grid-template-columns: auto;
+          grid-template-rows: 70px
+          200px
+          1fr
+          100px
+          200px;
+            grid-template-areas: 
+            "navegador"
+            "section1"
+            "section2"
+            "section3"
+            "footer";
+        }
+    }
+
+        nav a {
+            text-decoration: none;
+            color: #e0e0e0;
+        } 
+        
+        /* nav ul {
+            display: flex;
+            text-align: right;
+            font-family: sans-serif;
+            justify-content: flex-end;
+            align-items: flex-end;
+            }
+         */
+
+         nav ul {
+            display: flex;
+            margin: -65px 800px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+          }
+          nav li {
+              margin: 0 10px;
+          }
+        
+        nav ul li {
+            display: inline-block;
+            list-style: none;
+            font-size: medium;
+            width: 90px;
+        }  
+
+         nav img {
+             display: flex;
+            width: 70px;
+            flex-wrap: wrap;
+            margin: 0px 20px;
+         }
+         
+        .foto1 {
+            display: flex;
+            width: 400px;
+            margin: 30px 300px;
+        }  
+
+        .texto1{
+            display: flex;
+            font-size: 150px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin: -400px 600px;
+            color: #121212;
+        }
+
+        .eslogan{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 380px 808px;
+            color: #121212;
+        }
+
+        .botontienda{
+            font-size: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: -370px 973px;  
+        }
+
+        .btn{
+            text-decoration: none;
+            background-color: #ffa05c; 
+            -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 5px;
+  -webkit-box-shadow: 6px 5px 24px #ff9950;
+  -moz-box-shadow: 6px 5px 24px #ff9950;
+  box-shadow: 6px 5px 24px #ff9950;
+font-family: Arial, Helvetica, sans-serif;
+  color: #dfdfdf;
+  font-size: 20px;
+  padding: 15px;
+  text-decoration: none;
+}
+        
+a:hover{
+color: #ffa05c;
+font-size: large;
+text-decoration: underline;
+text-decoration-color: #ffa05c;
+} 
+
+.btn {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
