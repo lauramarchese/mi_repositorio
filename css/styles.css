@@ -177,3 +177,22 @@ text-decoration-color: #ffa05c;
     animation: bounce; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s; /* don't forget to set a duration! */
   }
+
+  .titulo{
+      color: #ffa05c;
+      font-size: 50px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      padding: 50px 480px;
+  }
+
+  .lorem{
+      color: #121212;
+      font-size: large;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 0px 330px;
+  }
+
+  /* .botellas {
+      width: px;
+      padding: 0px 0px;
+  } */
